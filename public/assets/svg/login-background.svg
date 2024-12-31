@@ -1,0 +1,40 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 800"
+  style="width: 100%; height: 100%; position: absolute; z-index: -1;"
+>
+
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D2FF" />
+      <stop offset="100%" stop-color="#4682B4" />
+    </linearGradient>
+  </defs>
+
+
+  <rect width="1440" height="800" fill="url(#bg-gradient)" />
+
+  <path
+    d="M0,160L40,170C80,180,160,200,240,208C320,216,400,224,480,224C560,224,640,216,720,192C800,168,880,128,960,128C1040,128,1120,168,1200,176C1280,184,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+    fill="#ffffff"
+    opacity="0.2"
+  ></path>
+
+  <path
+    d="M0,320L60,340C120,360,240,400,360,416C480,432,600,424,720,400C840,376,960,336,1080,336C1200,336,1320,376,1380,392L1440,408L1440,800L1380,800C1320,800,1200,800,1080,800C960,800,840,800,720,800C600,800,480,800,360,800C240,800,120,800,60,800L0,800Z"
+    fill="#ffffff"
+    opacity="0.3"
+  ></path>
+
+
+  <circle cx="200" cy="300" r="8" fill="white" opacity="0.6" />
+  <circle cx="500" cy="150" r="12" fill="white" opacity="0.4" />
+  <circle cx="1000" cy="250" r="10" fill="white" opacity="0.5" />
+  <circle cx="1250" cy="100" r="6" fill="white" opacity="0.8" />
+  <circle cx="850" cy="500" r="8" fill="white" opacity="0.3" />
+  <circle cx="300" cy="600" r="10" fill="white" opacity="0.5" />
+
+  <line x1="100" y1="700" x2="200" y2="600" stroke="white" stroke-width="1" opacity="0.2" />
+  <line x1="1200" y1="200" x2="1300" y2="100" stroke="white" stroke-width="1" opacity="0.2" />
+  <line x1="400" y1="500" x2="500" y2="400" stroke="white" stroke-width="1" opacity="0.2" />
+</svg>
