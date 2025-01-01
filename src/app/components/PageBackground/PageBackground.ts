@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export type PageWrapperProps = {
+export type PageBackgroundProps = {
     children: ReactNode;
     backgroundName: string;
   };
