@@ -1,0 +1,37 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 800"
+  style="width: 100%; height: 100%; position: absolute; z-index: -1;"
+>
+  <defs>
+    <linearGradient id="bg-gradient-register" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D2FF" />
+      <stop offset="100%" stop-color="#4682B4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="800" fill="url(#bg-gradient-register)" />
+
+  <path
+    d="M0,200L50,220C100,240,200,280,300,300C400,320,500,320,600,300C700,280,800,240,900,240C1000,240,1100,280,1200,300C1300,320,1350,320,1400,320L1440,320L1440,0L1400,0C1350,0,1300,0,1200,0C1100,0,1000,0,900,0C800,0,700,0,600,0C500,0,400,0,300,0C200,0,100,0,50,0L0,0Z"
+    fill="#ffffff"
+    opacity="0.2"
+  ></path>
+
+  <path
+    d="M0,400L70,420C140,440,280,480,420,500C560,520,700,520,840,500C980,480,1120,440,1260,440C1400,440,1440,480,1440,480L1440,800L1260,800C1120,800,980,800,840,800C700,800,560,800,420,800C280,800,140,800,70,800L0,800Z"
+    fill="#ffffff"
+    opacity="0.4"
+  ></path>
+
+  <circle cx="250" cy="350" r="10" fill="white" opacity="0.5" />
+  <circle cx="600" cy="200" r="14" fill="white" opacity="0.4" />
+  <circle cx="900" cy="400" r="12" fill="white" opacity="0.6" />
+  <circle cx="1300" cy="150" r="8" fill="white" opacity="0.7" />
+  <circle cx="750" cy="550" r="10" fill="white" opacity="0.5" />
+  <circle cx="400" cy="650" r="12" fill="white" opacity="0.3" />
+
+  <line x1="150" y1="650" x2="250" y2="550" stroke="white" stroke-width="1.5" opacity="0.3" />
+  <line x1="1100" y1="300" x2="1200" y2="200" stroke="white" stroke-width="1.5" opacity="0.3" />
+  <line x1="500" y1="450" x2="600" y2="350" stroke="white" stroke-width="1.5" opacity="0.3" />
+</svg>
