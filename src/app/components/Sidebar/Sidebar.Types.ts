@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 
-export type PageBackgroundProps = {
+export type SidebarProps = {
     children: ReactNode;
-    backgroundName: string;
   };
