@@ -4,4 +4,5 @@ export type FormFooterProps = {
   onNext: () => void;
   onPrevious: () => void;
   onSubmit: () => void;
+  onClose: () => void;
 };

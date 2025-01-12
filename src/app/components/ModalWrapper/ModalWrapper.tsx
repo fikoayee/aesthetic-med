@@ -1,4 +1,4 @@
-import { ModalWrapperProps } from "./PageBackground.types";
+import { ModalWrapperProps } from "./ModalWrapper.types";
 import { StyledModalContainer, StyledModalWrapper } from "./styles";
 import { useEffect, useState } from "react";
 

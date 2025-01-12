@@ -96,3 +96,10 @@ export const StyledToggleButton = styled(ToggleButton)(({ theme }) => ({
     },
   },
 }));
+
+export const StyledInputLabel = styled(Typography)(({ theme }) => ({
+  color: "black",
+  fontSize: "12px",
+  fontWeight: 500,
+  textAlign: "start",
+}));
