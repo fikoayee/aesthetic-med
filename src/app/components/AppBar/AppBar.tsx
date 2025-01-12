@@ -24,12 +24,12 @@ export const AppBar = ({}) => {
           </StyledIconAdornment>
         }
       />
-      <Box sx={{ display: "flex", alignItems: "center", marginLeft: 'auto' }}>
-     <UserAvatar/>
+      <Box sx={{ display: "flex", alignItems: "center", marginLeft: "auto" }}>
+        <UserAvatar />
         <OptionListIconButton>
           <StyledOptionItem onClick={() => {}}>Profile</StyledOptionItem>
-          <StyledOptionItem  onClick={() => {}}>Options</StyledOptionItem>
-          <StyledOptionItem  onClick={() => {}}>Logout</StyledOptionItem>
+          <StyledOptionItem onClick={() => {}}>Options</StyledOptionItem>
+          <StyledOptionItem onClick={() => {}}>Logout</StyledOptionItem>
         </OptionListIconButton>
       </Box>
     </StyledBoxContainer>

@@ -31,9 +31,12 @@ export const OptionListIconButton = ({
 
   return (
     <Stack>
-      <IconButton onClick={handleClick} >
-        <StyledIconAdornment position="start" isExpanded={anchorEl? true : false}>
-        <ExpandMore />
+      <IconButton onClick={handleClick}>
+        <StyledIconAdornment
+          position="start"
+          isExpanded={anchorEl ? true : false}
+        >
+          <ExpandMore />
         </StyledIconAdornment>
       </IconButton>
       <StyledMenu

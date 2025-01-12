@@ -54,7 +54,7 @@ const navigationItems: NavigationItem[] = [
 
 export const useNavigation = () => {
   const router = useRouter();
-  const currentPath = usePathname()
+  const currentPath = usePathname();
 
   const getNavigation = () => {
     return navigationItems.map((item) => ({

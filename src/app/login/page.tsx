@@ -5,7 +5,7 @@ import { LoginForm } from "./LoginForm/LoginForm";
 export default function Login() {
   return (
     <PageBackground backgroundName="login-background">
-        <LoginForm />
+      <LoginForm />
     </PageBackground>
   );
 }

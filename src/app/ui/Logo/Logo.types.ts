@@ -1,4 +1,3 @@
 import { ReactNode } from "react";
 
-export type LogoTypes = {
-  };
+export type LogoTypes = {};

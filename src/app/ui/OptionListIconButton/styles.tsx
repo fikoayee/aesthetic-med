@@ -6,8 +6,8 @@ type StyledIconAdornmentProps = {
   isExpanded: boolean;
 };
 type StyledOptionItemProps = {
-  isActive?: boolean
-}
+  isActive?: boolean;
+};
 
 export const StyledIconAdornment = styled(InputAdornment).withConfig({
   shouldForwardProp: (prop: string) => prop !== "isExpanded",
@@ -21,16 +21,16 @@ export const StyledIconAdornment = styled(InputAdornment).withConfig({
 
 export const StyledOptionItem = styled(MenuItem).withConfig({
   shouldForwardProp: (prop: string) => prop !== "isActive",
-})<StyledOptionItemProps>(({isActive, theme }) => ({
-  backgroundColor: isActive? "#0067fe" : "transparent",
+})<StyledOptionItemProps>(({ isActive, theme }) => ({
+  backgroundColor: isActive ? "#0067fe" : "transparent",
   "&:hover": {
     backgroundColor: "#0848a9",
   },
-}))
+}));
 
 export const StyledMenu = styled(Menu)({
   "& .MuiMenu-paper": {
     backgroundImage: "linear-gradient(310deg, #161616, #242424)",
-    color: 'white'
+    color: "white",
   },
-})
+});

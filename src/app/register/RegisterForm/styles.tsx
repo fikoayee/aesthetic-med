@@ -1,5 +1,12 @@
 "use client";
-import { Button, InputLabel, MenuItem, OutlinedInput, Select, Typography } from "@mui/material";
+import {
+  Button,
+  InputLabel,
+  MenuItem,
+  OutlinedInput,
+  Select,
+  Typography,
+} from "@mui/material";
 import { Stack } from "@mui/system";
 import styled from "styled-components";
 
@@ -89,32 +96,32 @@ export const StyledSelect = styled(Select)(({ theme }) => ({
     backgroundColor: "#3187d4",
   },
   "& .MuiSelect-icon": {
-    color: "white", 
+    color: "white",
   },
 }));
 
-export const StyledMenuItem = styled(MenuItem)(({theme}) => ({
-  color: 'white',
-  backgroundColor: '#5695cd',
-  '&.Mui-selected': {
-    backgroundColor: '#3187d4',
-    color: 'white', 
+export const StyledMenuItem = styled(MenuItem)(({ theme }) => ({
+  color: "white",
+  backgroundColor: "#5695cd",
+  "&.Mui-selected": {
+    backgroundColor: "#3187d4",
+    color: "white",
   },
-  '&.Mui-selected:hover': {
-    backgroundColor: '#3187d4',
+  "&.Mui-selected:hover": {
+    backgroundColor: "#3187d4",
   },
-  '&:hover': {
-    backgroundColor: '#3187d4' 
+  "&:hover": {
+    backgroundColor: "#3187d4",
   },
-}))
+}));
 
-export const StyledInputLabel = styled(InputLabel)(({theme}) => ({
-  color: '#98bfe1',
-  fontWeight: '500',
+export const StyledInputLabel = styled(InputLabel)(({ theme }) => ({
+  color: "#98bfe1",
+  fontWeight: "500",
   "&.Mui-focused": {
     color: "white",
   },
   "&.MuiInputLabel-shrink": {
-    color: "98bfe1", 
+    color: "98bfe1",
   },
-}))
+}));

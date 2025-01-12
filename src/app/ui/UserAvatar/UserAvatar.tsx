@@ -1,10 +1,6 @@
 import { UserAvatarTypes } from "./UserAvatar.types";
 import { Stack } from "@mui/system";
-import {
-  StyledAvatar,
-  StyledName,
-  StyledRole,
-} from "./styles";
+import { StyledAvatar, StyledName, StyledRole } from "./styles";
 
 export const UserAvatar = ({}: UserAvatarTypes) => {
   return (

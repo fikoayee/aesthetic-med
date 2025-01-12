@@ -8,11 +8,14 @@ type StyledMainProps = {
 };
 
 export const StyledMain = styled("main").withConfig({
-  shouldForwardProp: (prop: string) => prop !== "backgroundName" && prop !== "alignItems" && prop !== "justifyContent",
+  shouldForwardProp: (prop: string) =>
+    prop !== "backgroundName" &&
+    prop !== "alignItems" &&
+    prop !== "justifyContent",
 })<StyledMainProps>(({ backgroundName, alignItems, justifyContent }) => ({
   backgroundImage: `url('/assets/svg/${backgroundName}.svg')`,
   backgroundSize: "cover",
-  backgroundColor: '#0f0f0f',
+  backgroundColor: "#0f0f0f",
   backgroundPosition: "center",
   width: "calc(100vw - 200px)",
   height: "calc(100vh - 70px)",

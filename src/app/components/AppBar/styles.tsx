@@ -1,9 +1,5 @@
 "use client";
-import {
-  InputAdornment,
-  OutlinedInput,
-  Typography,
-} from "@mui/material";
+import { InputAdornment, OutlinedInput, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import styled from "styled-components";
 
@@ -13,7 +9,7 @@ export const StyledBoxContainer = styled(Box)(({ theme }) => ({
   alignItems: "center",
   paddingInline: "1rem",
   backgroundColor: "#0f0f0f",
-  paddingLeft: '30px'
+  paddingLeft: "30px",
 }));
 
 export const StyledTitleTypography = styled(Typography)(({ theme }) => ({
@@ -31,7 +27,7 @@ export const StyledSearchBar = styled(OutlinedInput)(({ theme }) => ({
   fontWeight: "100",
   borderRadius: "1rem",
   backgroundColor: "#161616",
-  marginLeft: 'calc((100vw - 340px)/3)',
+  marginLeft: "calc((100vw - 340px)/3)",
   color: "white",
   "& .MuiOutlinedInput-notchedOutline": {
     borderColor: "transparent",
@@ -54,4 +50,3 @@ export const StyledIconAdornment = styled(InputAdornment)(({ theme }) => ({
     color: "#0066fe",
   },
 }));
-

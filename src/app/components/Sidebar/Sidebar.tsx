@@ -1,5 +1,5 @@
 "use client";
-import { Box, } from "@mui/system";
+import { Box } from "@mui/system";
 import { ListItemButton } from "@/app/ui/ListItemButton/ListItemButton";
 import { useNavigation } from "@/app/hooks/useNavigation";
 import {
@@ -10,12 +10,10 @@ import {
 import { Logo } from "@/app/ui/Logo/Logo";
 import { SidebarProps } from "./Sidebar.Types";
 
-
-export const Sidebar = ({children}: SidebarProps) => {
+export const Sidebar = ({ children }: SidebarProps) => {
   const { navigation, navigate } = useNavigation();
   return (
-
-    <Box sx={{display: 'flex', height: '100vh'}}>
+    <Box sx={{ display: "flex", height: "100vh" }}>
       <StyledBoxContainer>
         <Logo />
         <StyledSpacer />
@@ -49,7 +47,7 @@ export const Sidebar = ({children}: SidebarProps) => {
           />
         ))}
       </StyledBoxContainer>
-        {children}
+      {children}
     </Box>
   );
 };
